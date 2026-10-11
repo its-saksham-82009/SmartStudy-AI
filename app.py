@@ -40,6 +40,11 @@ QUESTIONS = [
     {"id":"MAT_013","subject":"Maths","topic":"Quadratic Equations","difficulty":"Medium","q":"The roots of x² − 5x + 6 = 0 are:","options":["1 and 6","2 and 3","−2 and −3","0 and 5"],"answer":"2 and 3","explanation":"x² − 5x + 6 = (x − 2)(x − 3)."},
     {"id":"MAT_014","subject":"Maths","topic":"Permutations","difficulty":"Medium","q":"How many ways can 3 different books be arranged in a row?","options":["3","6","9","27"],"answer":"6","explanation":"The number of arrangements is 3! = 6."},
     {"id":"MAT_015","subject":"Maths","topic":"Trigonometry","difficulty":"Hard","q":"If sin θ = 3/5 and θ is acute, then cos θ equals:","options":["2/5","3/4","4/5","5/4"],"answer":"4/5","explanation":"cos θ = √(1 − sin²θ) = √(16/25) = 4/5."},
+    {"id":"MAT_016","subject":"Maths","topic":"Trigonometry","difficulty":"Easy","q":"What is cos 60°?","options":["0","1/2","√3/2","1"],"answer":"1/2","explanation":"cos 60° = 1/2."},
+    {"id":"MAT_017","subject":"Maths","topic":"Quadratic Equations","difficulty":"Easy","q":"Which of these is a root of x² − 9 = 0?","options":["1","2","3","4"],"answer":"3","explanation":"x² = 9, so x = 3 or x = −3; 3 is one root."},
+    {"id":"MAT_018","subject":"Maths","topic":"Permutations","difficulty":"Medium","q":"How many distinct arrangements can be made using all letters of the word CAT?","options":["3","6","9","12"],"answer":"6","explanation":"All three letters are different, so the number of arrangements is 3! = 6."},
+    {"id":"MAT_019","subject":"Maths","topic":"Sequences and Series","difficulty":"Medium","q":"What is the 5th term of the arithmetic sequence 2, 5, 8, 11, ...?","options":["12","13","14","15"],"answer":"14","explanation":"The common difference is 3, so the 5th term is 2 + 4×3 = 14."},
+    {"id":"MAT_020","subject":"Maths","topic":"Trigonometry","difficulty":"Hard","q":"If tan θ = 3/4 and θ is acute, what is sec θ?","options":["4/5","5/4","3/5","5/3"],"answer":"5/4","explanation":"Using a 3–4–5 triangle, sec θ = hypotenuse/adjacent = 5/4."},
 ]
 
 def init_state():
@@ -238,5 +243,5 @@ with tab_about:
 
     **Important limitation:** This version uses transparent rules, not a trained production AI model. Its recommendations are a learning prototype and should be checked by the student.
     """)
-    st.markdown("**Question bank:** 30 original practice questions • Physics, Chemistry and Maths.")
+    st.markdown("**Question bank:** 35 original practice questions • Physics (15), Chemistry (10) and Maths (10).")
     st.markdown("**Technology:** Python, Streamlit and Pandas.")
